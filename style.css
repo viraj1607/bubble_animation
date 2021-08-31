@@ -145,3 +145,35 @@ h1{
 .bubbles img:nth-child(7){
     animation-delay: 5s;
 }
+
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 35px;
+        line-height: 50px; 
+     }
+
+    .side-bar{
+        width: 100%;
+        height: 50px;
+        bottom: 0px;
+        top: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .social-links{
+        width: auto;
+        position: unset;
+    }
+
+    .useful-links{
+        width: auto;
+        position: unset;
+    }
+
+    
+}
